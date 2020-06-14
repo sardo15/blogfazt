@@ -1,0 +1,100 @@
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+header, section, footer, aside, nav, article, hgroup{
+    border: 1px solid goldenrod;
+    display: block;
+}
+body{
+    text-align: center;
+}
+
+.agrupar{
+    background: gray;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px auto;
+    padding: 40px;
+}
+
+.cabecera{
+    background: lavender;
+    border: 1px solid peru;
+    padding: 20px;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.menu{
+    background: powderblue;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.seccion{
+    margin : 20px;
+    border: 1px solid black;
+    width: 600px;
+    float: left;
+    
+}
+article{
+    background: cornflowerblue;
+    border: 1px solid crimson;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+
+time{
+    color: gray;
+}
+img{
+    width: 500px;
+    display: block;
+    margin: 20px 20px auto;
+}
+
+article footer{
+    text-align: right;
+}
+
+.columna{
+    width: 200px;
+    margin: 20px 0;
+    background: yellow;
+    border: 1px solid black;
+    float: left;
+    width: 300px;
+}
+
+.columna blockquote{
+    border: 1px dash black;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background: burlywood;
+}
